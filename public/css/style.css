@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#qr-text {
+  resize: none;
+  border: 2px solid lightseagreen;
+  outline: none;
+  border-radius: 15px;
+}
+
+#qr-text:focus {
+  outline: 2px solid #008105;
+}
+
+.container {
+  height: 100vh;
+}
